@@ -2,6 +2,7 @@
 ## Gaurav Niranjan, Matr. no: 6599177
 
 The assignment has been divided into 4 python files:
+
     1. dense_points.py: Samples dense points in the video frames and tracks the trajectory of those points. 
                         Finally returns the 30-dim descriptors of every in the video
     2. histogram_descriptors.py: Creates a 32x32x15 block following each trajectory's head. Then divides each of

@@ -1,0 +1,18 @@
+******************************************************************************************************
+
+	Please write the instructions to run your code here
+
+******************************************************************************************************
+	- The dataset can be found in the data folders
+
+	- The groundTruth directory contains the frame-wise labels for the videos (one file per video).
+
+	- The features directory contains the frame-wise features for the videos (one file per video, and each file is a numpy array with dimension 2048xT).
+
+	- In the following is a brief description of the files included in the data folder
+
+		mapping.txt: List of the action classes and the corresponding id
+	
+		train.bundle: List of the training videos (Make sure to use the suitable path and extension to read the features or action labels)
+
+		test.bundle: List of the testing videos (Make sure to use the suitable path and extension to read the features or action labels)

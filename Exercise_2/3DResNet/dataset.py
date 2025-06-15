@@ -43,8 +43,8 @@ class RGB3DResnetDataset(Dataset):
             raise ValueError(f"Video {video_path} has only {total_frames} frames, requires {self.num_frames}")
         
         if self.mode == 'val' :
-            stride = (total_frames - self.num_frames) // 5
-            start_indices = [i * stride for i in range(6)]
+            stride = (total_frames - self.num_frames) // 3
+            start_indices = [i * stride for i in range(4)]
         else:
             start = random.randint(0, total_frames-self.num_frames)  #Temporal random crop
             start_indices = [start]
